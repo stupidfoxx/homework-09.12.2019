@@ -1,0 +1,52 @@
+.conteiner {
+  margin: 50px auto;
+  width: 400px;
+  height: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.conteiner div {
+  background-color: #c2c2c2;
+  border: 1px solid;
+  width: 70px;
+  height: 70px;
+}
+
+.conteiner .visit {
+  background-color: #ff0055;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.buttons div {
+  margin: 5px;
+  padding-top: 10px;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  background-color: #3a31b8;
+  width: 60px;
+  height: 50px;
+  border: 1px solid;
+}
+/*# sourceMappingURL=main.css.map */
